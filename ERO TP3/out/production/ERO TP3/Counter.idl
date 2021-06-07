@@ -1,0 +1,6 @@
+//Counter IDL
+interface Counter{
+    readonly attribute long value;
+    void inc();
+    void desc();
+};
