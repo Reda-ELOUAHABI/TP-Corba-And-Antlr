@@ -1,0 +1,5 @@
+interface Horloge{
+	readonly attribute string heure;
+	void setGMT();
+	void setHeureEte();
+};

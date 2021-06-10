@@ -1,0 +1,8 @@
+ //Alarm.idl
+  interface Alarm
+  {
+    readonly attribute long h;
+    readonly attribute long min;
+    void LocalTime();
+    void setAlarm(in long h,in long min);
+};
